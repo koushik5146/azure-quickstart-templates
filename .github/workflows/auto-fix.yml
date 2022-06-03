@@ -17,7 +17,7 @@ jobs:
 
     env:
       # don't print dotnet logo
-      DOTNET_NOLOGO: true
+      DOTNET_NOLOGO: false
 
       # disable telemetry (reduces dotnet tool output in logs)
       DOTNET_CLI_TELEMETRY_OPTOUT: true
